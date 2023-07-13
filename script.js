@@ -13,5 +13,5 @@ function calculateAge() {
 
     let days = today.diff(birthDate, "days");
 
-    result.innerHTML = `You are <span>${y3}</span> years, <span>${m3}</span> months,<span>${d3}</span> days old`;
+    result.innerHTML = `You are <span>${years}</span> years, <span>${months}</span> months,<span>${days}</span> days old`;
 }
